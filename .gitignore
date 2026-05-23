@@ -13,3 +13,4 @@
 # Ignore log files and generated execution plans
 *.log
 *.tfplan
+tfplan
