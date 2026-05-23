@@ -1,0 +1,15 @@
+# Ignore local secret variables
+*.tfvars
+*.tfvars.json
+
+# Ignore local state files
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Ignore the local binary cache
+.terraform/
+
+# Ignore log files and generated execution plans
+*.log
+*.tfplan
